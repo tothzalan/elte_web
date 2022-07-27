@@ -31,8 +31,8 @@
 </head>
 <body>
 	<h1>Blog</h1>
-	<p>Itt olvashatóak a blog posztjaim:</p>
 	<?php if($post_name == '') : ?>
+	<p>Itt olvashatóak a blog posztjaim:</p>
 	<ul>
 		<?php if(count($file) > 0) : ?>
 			<?php foreach($file as $post) : ?>
