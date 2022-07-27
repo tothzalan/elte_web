@@ -32,7 +32,7 @@
 <body>
 	<h1>Blog</h1>
 	<?php if($post_name == '') : ?>
-	<p>Itt olvashatóak a blog posztjaim:</p>
+	<p>Itt olvashatóak a posztjaim:</p>
 	<ul>
 		<?php if(count($file) > 0) : ?>
 			<?php foreach($file as $post) : ?>
