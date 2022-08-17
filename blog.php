@@ -42,11 +42,12 @@
 			<li>Nagy üresség :(</li>
 		<?php endif ?>
 	</ul>
+	<a href="/">vissza</a>
 	<?php else : ?>
 		<?php foreach($file as $line) : ?>
 			<p><?= $line ?></p>
 		<?php endforeach ?>
+	<a href="blog">vissza</a>
 	<?php endif ?>
-	<a href="index">vissza</a>
 </body>
 </html>
